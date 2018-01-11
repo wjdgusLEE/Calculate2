@@ -27,7 +27,7 @@ public class Calc {
 		
 		System.out.println();
 		System.out.print(">");
-casenum = input.nextInt();
+		casenum = input.nextInt();
 		
 		if (casenum != 4) {
 			System.out.print("> x:");
