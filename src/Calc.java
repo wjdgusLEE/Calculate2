@@ -4,6 +4,11 @@ public class Calc {
 	public int add (int a, int b) {
 		return a + b;
 	}
+	
+	public int subtract (int a, int b) {
+		return a - b;
+	}
+	
 	public static void main(String[] args) {
 		int casenum;
 		int num1, num2;
@@ -34,7 +39,9 @@ casenum = input.nextInt();
 			case 1:
 				System.out.println("> result:" + cal.add(num1, num2));
 				break;
-			
+			case 2:
+				System.out.println("> result:" + cal.subtract(num1, num2));
+				break;
 			}
 			
 		}
