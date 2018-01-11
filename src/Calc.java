@@ -9,6 +9,9 @@ public class Calc {
 		return a - b;
 	}
 	
+	public int multiply (int a, int b) {
+		return a * b;
+	}
 	public static void main(String[] args) {
 		int casenum;
 		int num1, num2;
@@ -41,6 +44,9 @@ public class Calc {
 				break;
 			case 2:
 				System.out.println("> result:" + cal.subtract(num1, num2));
+				break;
+			case 3:
+				System.out.println("> result:" + cal.multiply(num1, num2));
 				break;
 			}
 			
