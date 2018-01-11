@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Calc {
-	
+	public int add (int a, int b) {
+		return a + b;
+	}
 	public static void main(String[] args) {
 		int casenum;
 		int num1, num2;
@@ -20,7 +22,22 @@ public class Calc {
 		
 		System.out.println();
 		System.out.print(">");
+casenum = input.nextInt();
 		
+		if (casenum != 4) {
+			System.out.print("> x:");
+			num1 = input.nextInt();
+			System.out.print("> y:");
+			num2 = input.nextInt();
+			
+			switch(casenum) {
+			case 1:
+				System.out.println("> result:" + cal.add(num1, num2));
+				break;
+			
+			}
+			
+		}
 	}
 
 }
