@@ -32,7 +32,7 @@ public class Calc {
 		System.out.print(">");
 		casenum = input.nextInt();
 		
-		if (casenum != 4) {
+		while (casenum != 4) {
 			System.out.print("> x:");
 			num1 = input.nextInt();
 			System.out.print("> y:");
@@ -49,7 +49,10 @@ public class Calc {
 				System.out.println("> result:" + cal.multiply(num1, num2));
 				break;
 			}
-			
+
+			System.out.println();
+			System.out.print(">");
+			casenum = input.nextInt();
 		}
 	}
 
